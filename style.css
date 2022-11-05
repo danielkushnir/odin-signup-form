@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+.logoSection {
+    flex-shrink: 0;
+    position: relative;
+    width: 535px;
+    height: 952px;
+    background: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logoHeader {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+}
+
+.logoHeaderText {
+    color: white;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.logoHeaderText::before {
+    content: "🐑";
+    font-size: 96px;
+}
+
+.photoCredit {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.photoCredit a {
+    color: white;
+}
+
+.formSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F9F9F9;
+}
+
+.formSectionText {
+    width: 600px;
+    margin-left: 36px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.formSectionTextBottom {
+    margin-top: 24px;
+}
+
+.formSectionForm {
+    margin-top: 60px;
+    width: 700px;
+    background-color: #fff;
+    padding: 24px 0;
+}
+
+.formSectionForm form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formHeader {
+    margin-left: 36px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #444;
+    margin: 12px 36px 12px 36px;
+}
+
+input {
+    display: block;
+    height: 22px;
+    width: 250px;
+    outline: none;
+    border: 1px solid #AAA;
+    border-radius: 3px;
+    padding: 3px 12px;
+    font-size: 16px;
+    margin-top: 4px;
+}
+

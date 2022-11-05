@@ -5,9 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Sign-Up Form</h1>
+    <div class="logoSection">
+        <div class="logoHeader">
+            <p class="logoHeaderText">SHEEP</p>
+        </div>
+        <p class="photoCredit">Photo by <a href="https://unsplash.com/@malikskyds">Malik Skydsgaard</a> on <a href="https://unsplash.com/photos/9THXjmNR7fw">Unsplash</a></p>
+    </div>
+    <div class="formSection">
+        <div class="formSectionText">
+            <p class="formSectionTextTop">This is not a real online service! you know you need
+                something like this in your life to help you realize
+                your deepest dreams.
+            </p>
+            <p class="formSectionTextSignup">Sign up <em>now</em> to get started.</p>
+            <p class="formSectionTextBottom">You <em>know</em> you want to.</p>
+        </div>
+        <div class="formSectionForm">
+            <p class="formHeader">Let's do this!</p>
+            <form action="">
+                <label for="fName">FIRST NAME
+                    <input type="text" name="fName" id="fName">
+                </label>
+                <label for="fName">LAST NAME
+                    <input type="text" name="lName" id="lName">
+                </label>
+                <label for="email">EMAIL
+                    <input type="email" name="email" id="email">
+                </label>            
+                <label for="tel">PHONE NUMBER
+                    <input type="tel" name="tel" id="tel">
+                </label>               
+                <label for="password">PASSWORD
+                    <input type="password" name="password" id="password">
+                </label>
+                <label for="cPassword">CONFIRM PASSWORD
+                    <input type="password" name="cPassword" id="cPassword">
+                </label>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
