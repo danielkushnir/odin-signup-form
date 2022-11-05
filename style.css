@@ -23,18 +23,20 @@ body {
     width: 100%;
     position: absolute;
     text-align: center;
-    top: 30%;
+    top: 25%;
 }
 
 .logoHeaderText {
     color: white;
     font-size: 60px;
-    font-weight: 300;
+    font-weight: 900;
 }
 
 .logoHeaderText::before {
     content: "🐑";
-    font-size: 96px;
+    font-size: 106px;
+    font-weight: 100;
+    margin-right: 8px;
 }
 
 .photoCredit {
@@ -51,14 +53,15 @@ body {
 
 .formSection {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     background-color: #F9F9F9;
 }
 
 .formSectionText {
-    width: 600px;
-    margin-left: 36px;
+    width: 680px;
+    margin-left: 48px;
     font-size: 22px;
     font-weight: 500;
 }
@@ -69,9 +72,9 @@ body {
 
 .formSectionForm {
     margin-top: 60px;
-    width: 700px;
     background-color: #fff;
     padding: 24px 0;
+    box-shadow: 0px 2px 6px 1px rgba(207, 207, 207, 0.58);
 }
 
 .formSectionForm form {
@@ -80,7 +83,7 @@ body {
 }
 
 .formHeader {
-    margin-left: 36px;
+    margin-left: 48px;
     font-size: 22px;
     font-weight: 500;
 }
@@ -89,18 +92,62 @@ label {
     font-size: 12px;
     font-weight: 500;
     color: #444;
-    margin: 12px 36px 12px 36px;
+    margin: 12px 12px 12px 48px;
 }
 
 input {
     display: block;
     height: 22px;
-    width: 250px;
+    width: 240px;
     outline: none;
-    border: 1px solid #AAA;
-    border-radius: 3px;
-    padding: 3px 12px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 3px 10px;
     font-size: 16px;
     margin-top: 4px;
 }
 
+input:focus {
+    border-color: rgb(0, 121, 168);
+    box-shadow: 1px 2px 3px 1px rgba(197, 197, 197, 0.68);
+}
+
+.btn {
+    margin: 36px;
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #825e84;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px 1px rgba(197, 197, 197, 0.68);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #9c719e;
+}
+
+.btn:active {
+    background-color: #825e84;
+}
+
+.loginPara {
+    margin-left: 36px;
+}
+
+.loginPara a {
+    color: #825e84;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.loginPara a:hover {
+    color: #9c719e;
+}
+
+.loginPara a:active {
+    color: #825e84;
+}
