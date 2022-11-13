@@ -88,6 +88,15 @@ body {
     font-weight: 500;
 }
 
+.formHeaderRequired {
+    margin-left: 48px;
+    font-size: 14px;
+}
+
+.asterik {
+    color: red;
+}
+
 label {
     font-size: 12px;
     font-weight: 500;

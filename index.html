@@ -29,26 +29,28 @@
             </div>
             <div class="formSectionForm">
                 <p class="formHeader">Let's do this!</p>
+                <p class="formHeaderRequired">Fields marked with a (<span class="asterik">*</span>) are required</p>
                 <form action="" id="odinForm">
-                    <label for="fName">FIRST NAME
-                        <input type="text" name="fName" id="fName">
+                    <label for="fName">FIRST NAME <span class="asterik">*</span>
+                        <input type="text" name="fName" id="fName" required>
+                        <p class="help">Please fill out your name</p>
                     </label>
                     <label for="lName">LAST NAME
                         <input type="text" name="lName" id="lName">
                     </label>
-                    <label for="email">EMAIL
-                        <input type="email" name="email" id="email">
+                    <label for="email">EMAIL <span class="asterik">*</span>
+                        <input type="email" name="email" id="email" required>
                         <p class="help">Please enter a valid email address</p>
                     </label>            
                     <label for="tel">PHONE NUMBER
                         <input type="tel" name="tel" id="tel">
                     </label>               
-                    <label for="password">PASSWORD
-                        <input type="password" name="password" id="password">
-                        <p class="help">Passwords do not match</p>
+                    <label for="password">PASSWORD <span class="asterik">*</span>
+                        <input type="password" name="password" id="password" required>
+                        <p class="help">Please enter your password</p>
                     </label>
-                    <label for="cPassword">CONFIRM PASSWORD
-                        <input type="password" name="cPassword" id="cPassword">
+                    <label for="cPassword">CONFIRM PASSWORD <span class="asterik">*</span>
+                        <input type="password" name="cPassword" id="cPassword" required>
                     </label>
                 </form>
             </div>
